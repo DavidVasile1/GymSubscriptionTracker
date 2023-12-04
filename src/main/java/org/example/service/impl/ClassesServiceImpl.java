@@ -1,5 +1,6 @@
 package org.example.service.impl;
 
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.example.model.entities.Classes;
 import org.example.repository.ClassesRepository;
@@ -16,6 +17,7 @@ public class ClassesServiceImpl implements ClassesService {
 
 
     private final ClassesRepository classesRepository;
+
     @Override
     public void createClass(Classes classes) {
         classesRepository.save(classes);

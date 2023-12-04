@@ -23,7 +23,7 @@ public class Subscription {
     private LocalDate endDate;
     @OneToOne
     private Members member;
-    @ManyToMany(cascade = CascadeType.ALL,mappedBy = "subscriptions")
+    @ManyToMany(cascade = { CascadeType.MERGE},mappedBy = "subscriptions")
     private List<Classes> classes;
 
 

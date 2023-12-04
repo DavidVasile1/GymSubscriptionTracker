@@ -7,10 +7,9 @@
     <list default="true" id="8dacb9c1-b21f-43fe-980a-f1a3a304b77b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/entities/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/entities/Classes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/ClassesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/ClassesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/GymsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/GymsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/MembersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/MembersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/SubscriptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/mapper/SubscriptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/entities/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/entities/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/ClassesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/ClassesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/SubscriptionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/SubscriptionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,22 +108,11 @@
       <workItem from="1701608931278" duration="4193000" />
       <workItem from="1701621896812" duration="304000" />
       <workItem from="1701684165122" duration="351000" />
-      <workItem from="1701702104377" duration="10509000" />
+      <workItem from="1701702104377" duration="19167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

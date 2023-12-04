@@ -1,25 +1,36 @@
 package org.example.service.impl;
 
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.example.model.entities.Classes;
 import org.example.model.entities.Subscription;
+import org.example.repository.ClassesRepository;
 import org.example.repository.SubscriptionRepository;
 import org.example.service.SubscriptionService;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 public class SubscriptionServiceImpl implements SubscriptionService {
-    public final SubscriptionRepository subscriptionRepository;
+    private final SubscriptionRepository subscriptionRepository;
+    private final EntityManager entityManager;
+    private final ClassesRepository classesRepository;
+
     @Override
+    @Transactional
     public void createSubscription(Subscription subscription) {
         subscription.setStartDate(LocalDate.now());
-        subscription.setEndDate(LocalDate.parse(subscription.getStartDate().toString()).plusDays(30));
+        subscription.setEndDate(subscription.getStartDate().plusDays(30));
         subscriptionRepository.save(subscription);
+        entityManager.flush();
     }
+
 
     @Override
     public Optional<Subscription> getSubscription(UUID id) {
