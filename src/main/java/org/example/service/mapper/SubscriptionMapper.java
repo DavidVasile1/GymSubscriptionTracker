@@ -5,12 +5,14 @@ import org.example.model.dtos.SubscriptionDTO;
 import org.example.model.entities.Classes;
 import org.example.model.entities.Members;
 import org.example.model.entities.Subscription;
+import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+@Mapper
 @Component
 public class SubscriptionMapper {
 

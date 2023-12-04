@@ -4,10 +4,12 @@ package org.example.service.mapper;
 import org.example.model.dtos.GymsDTO;
 import org.example.model.entities.Classes;
 import org.example.model.entities.Gyms;
+import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;
 
+@Mapper
 @Component
 public class GymsMapper {
 
