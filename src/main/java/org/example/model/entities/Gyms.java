@@ -21,6 +21,6 @@ public class Gyms {
     private String name;
     private String location;
     private String program;
-    @OneToMany(mappedBy = "gym",cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "gym",cascade = CascadeType.ALL)
     private List<Classes> classes;
 }

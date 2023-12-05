@@ -40,7 +40,7 @@ public class GymsController {
 
     @PostMapping
     public ResponseEntity<GymsDTO> postGym(@RequestBody GymsDTO gymsDTO) {
-        gymsService.createGym(gymsMapper.toEntity(gymsDTO));
+        gymsService.createGym(GymsMapper.toEntity(gymsDTO));
         return new ResponseEntity<>(gymsDTO, HttpStatus.OK);
     }
 
