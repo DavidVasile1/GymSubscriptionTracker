@@ -13,4 +13,5 @@ public interface GymsService {
     void deleteGyms(UUID id);
 
     List<Gyms> getAllGyms();
+
 }

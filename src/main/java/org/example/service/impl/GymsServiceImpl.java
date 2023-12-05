@@ -41,4 +41,6 @@ public class GymsServiceImpl implements GymsService {
 
         return gymsRepository.findAll();
     }
+
 }
+
