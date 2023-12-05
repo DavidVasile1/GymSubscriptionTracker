@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dacb9c1-b21f-43fe-980a-f1a3a304b77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/MembersValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/MembersValidationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/GymsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/GymsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/GymsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/GymsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/SubscriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/SubscriptionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/GymsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/GymsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/GymsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/GymsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/MembersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/MembersController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1701621896812" duration="304000" />
       <workItem from="1701684165122" duration="351000" />
       <workItem from="1701702104377" duration="19955000" />
-      <workItem from="1701776192708" duration="5360000" />
+      <workItem from="1701776192708" duration="10525000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,13 @@
 package org.example.controller;
 
+import jakarta.validation.Valid;
 import org.example.model.dtos.MembersDTO;
 import org.example.service.MembersService;
 import org.example.service.mapper.MembersMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,6 +15,7 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+@Validated
 @RestController
 @RequestMapping(value = "/members")
 public class MembersController {
@@ -36,7 +39,7 @@ public class MembersController {
     }
 
     @PostMapping
-    public ResponseEntity<MembersDTO> postMember(@RequestBody MembersDTO membersDTO) {
+    public ResponseEntity<MembersDTO> postMember(@RequestBody @Valid MembersDTO membersDTO) {
         membersService.createMember(membersMapper.toEntity(membersDTO));
         return  new ResponseEntity<>(membersDTO, HttpStatus.OK);
     }
